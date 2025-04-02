@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management Chattogram</title>
+    <link rel="stylesheet" href="stylectgeve.css">
+    <link rel="stylesheet" href="form.html">
+    <!--swiper css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Event Management Chattogram</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" onclick="showSection('home')">Home</a></li>
+                <li><a href="#about" onclick="showSection('about')">About Us</a></li>
+                <li><a href="#features" onclick="showSection('features')">Features</a></li>
+                <li><a href="#services" onclick="showSection('services')">Services</a></li>
+                <li><a href="#contact" onclick="showSection('contact')">Contact Us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="section">
+            <div class="hero">
+                <h2>Welcome to Event Management Chattogram</h2>
+                <p>Your premier choice for exceptional event planning and management in Chattogram.</p>
+                <img src="Image/pablo-heimplatz-ZODcBkEohk8-unsplash.jpg" alt="Event Management">
+                <button class="cta-button">Get Started</button>
+            </div>
+            <div class="content">
+                <h3>Why Choose Us?</h3>
+                <p>With over a decade of experience, Event Management Chattogram offers a comprehensive range of event
+                    planning services tailored to meet the unique needs of our clients. Our dedicated team works closely
+                    with you to bring your vision to life, ensuring every detail is perfect.</p>
+                <h3>Our Vision</h3>
+                <p>We aim to create memorable experiences that leave a lasting impression. From intimate gatherings to
+                    large-scale events, we provide exceptional service and creative solutions to ensure your event is a
+                    success.</p>
+                <h3>Our Mission</h3>
+                <p>Our mission is to exceed client expectations through meticulous planning, innovative design, and
+                    flawless execution. We are committed to delivering the highest level of service and creating events
+                    that are truly unforgettable.</p>
+                <div class="gallery">
+                    <h3>Event Highlights</h3>
+                    <div class="gallery-images">
+                        <img src="Image/download (1).jpg" alt="Event 1">
+                        <img src="Image/Concert-Management-company-Dhaka-240x240.jpg" alt="Event 2">
+                        <img src="Image/redd-f-qMFSP1xYVTQ-unsplash.jpg" alt="Event 3">
+
+                    </div>
+                </div>
+                <div class="testimonials">
+                    <h3>What Our Clients Say</h3>
+                    <div class="testimonial">
+                        <p>"Event Management Chattogram made our wedding day truly magical. Their attention to detail
+                            and professionalism were outstanding."</p>
+                        <p>- Sumaiya And Rafi</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>"We couldn't have asked for a better team to organize our corporate event. Everything was
+                            perfect, and our guests were impressed."</p>
+                        <p>- ABC Corporation</p>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <p>Stay updated with the latest news and special offers from Event Management Chattogram.</p>
+                    <form>
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="section hidden">
+            <h2>About Us</h2>
+            <p>Event Management Chattogram has been serving the community with top-notch event planning services for
+                over a decade. Our experienced team works closely with clients to bring their vision to life, ensuring
+                every detail is perfect.</p>
+        </section>
+
+        <section id="features" class="section hidden">
+            <h2>Our Features</h2>
+            <div class="features-container">
+                <div class="feature">
+                    <img src="Image/Getting+Affairs+in+Order.jpg" alt="Feature 1">
+                    <div class="feature-content">
+                        <h3>Personalized Planning</h3>
+                        <p>We provide customized event planning services tailored to your specific needs and
+                            preferences.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="Image/hackman+team+factors+article.png" alt="Feature 2">
+                    <div class="feature-content">
+                        <h3>Expert Team</h3>
+                        <p>Our team consists of experienced professionals who are experts in their respective fields.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="Image/images.jpg" alt="Feature 3">
+                    <div class="feature-content">
+                        <h3>Comprehensive Services</h3>
+                        <p>From venue selection to catering and entertainment, we offer a wide range of services to
+                            cover every aspect of your event.</p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="Image/Brand-activation-company-in-Bangladesh.jpg" alt="Feature 4">
+                    <div class="feature-content">
+                        <h3>Innovative Designs</h3>
+                        <p>Our creative team designs unique and innovative event themes that make your event stand out.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="Image/furniture-office_883586-23875.avif" alt="Feature 5">
+                    <div class="feature-content">
+                        <h3>Seamless Coordination</h3>
+                        <p>We ensure smooth coordination between all vendors and stakeholders for a hassle-free event.
+                        </p>
+                    </div>
+                </div>
+                <div class="feature">
+                    <img src="Image/Screenshot 2024-05-28 215803.png" alt="Feature 6">
+                    <div class="feature-content">
+                        <h3>24/7 Support</h3>
+                        <p>Our team is available around the clock to assist you with any queries or concerns.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="section hidden">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service">
+                    <img src="Image/LSB-HERO-IMAGE-22.jpg" alt="Service 1">
+                    <div class="service-content">
+                        <h3>Parties</h3>
+                        <p>We organize themed parties, birthday celebrations, and private gatherings with a unique
+                            touch.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="service">
+                    <img src="Image/conference-speaker.jpg" alt="Service 2">
+                    <div class="service-content">
+                        <h3>Conferences</h3>
+                        <p>Professional conference planning with state-of-the-art facilities and seamless coordination.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="service">
+                    <img src="Image/Designing-an-Exhibition-1.webp" alt="Service 3">
+                    <div class="service-content">
+                        <h3>Exhibitions</h3>
+                        <p>Comprehensive exhibition management services, from booth design to attendee engagement.</p>
+                    </div>
+
+                </div>
+                <div class="service">
+                    <img src="Image/product-launch-hero-1.png" alt="Service 4">
+                    <div class="service-content">
+                        <h3>Product Launches</h3>
+                        <p>Innovative and impactful product launch events that make a lasting impression.</p>
+                    </div>
+
+                </div>
+                <div class="service">
+                    <img src="Image/unnamed.jpg" alt="Service 5">
+                    <div class="service-content">
+                        <h3>Annual Meetings</h3>
+                        <p>Expert planning and execution of annual meetings with attention to detail and
+                            professionalism.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="service">
+                    <img src="Image/images (1).jpg" alt="Service 6">
+                    <div class="service-content">
+                        <h3>Brand Activations</h3>
+                        <p>Creative brand activation campaigns to engage your audience and enhance brand visibility.</p>
+                    </div>
+
+                </div>
+                <div class="service">
+                    <img src="Image/virtual-events-are-the-future-we-all-know-it.png" alt="Service 7">
+                    <div class="service-content">
+                        <h3>Virtual Events</h3>
+                        <p>Seamless virtual event planning with interactive platforms and engaging content.</p>
+                    </div>
+
+                </div>
+                <div class="service">
+                    <img src="Image/destination-wedding.jpg" alt="Service 8">
+                    <div class="service-content">
+                        <h3>Destination Events</h3>
+                        <p>Planning and execution of events at exotic destinations, including travel and accommodation
+                            arrangements.</p>
+                    </div>
+
+                </div>
+                <div class="service">
+                    <img src="Image/-15917580552152034504455.jpg" alt="Service 9">
+                    <div class="service-content">
+                        <h3>Gala Dinners</h3>
+                        <p>Elegant gala dinners with exquisite décor, gourmet dining, and live entertainment.</p>
+                    </div>
+
+                </div>
+                <div class="service">
+                    <img src="Image/traditional-popular-food-mezban-mezban-traditional-food-chittagong-bangladesh-mezbani-meat-made-beef-fed-to-183962060.webp"
+                        alt="Service 10">
+                    <div class="service-content">
+                        <h3>Traditional MEZBAN</h3>
+                        <p>We can arrange The MEZBAN in Traditional way in any location or You can rent best chef and
+                            the needed instruments from us.</p>
+                    </div>
+                </div>
+        </section>
+        <section id="contact" class="section hidden">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or would like to discuss your event, please get in touch with us using
+                        the form below or via our contact details.</p>
+                    <p><strong>Phone:</strong> +880 123-456-789</p>
+                    <p><strong>Email:</strong> info@eventmanagementctg.com</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Contact Form</h3>
+                    <form id="contactForm">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="contact">Contact No:</label>
+                        <input type="text" id="contact" name="contact" required>
+
+                        <label for="service">Service Needed:</label>
+                        <textarea id="service" name="service" rows="5" required></textarea>
+
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>cd catering
+            </div>
+        </section>
+
+    </main>
+
+
+    <script>
+        function showSection(sectionId) {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                section.classList.add('hidden');
+            });
+
+            const activeSection = document.getElementById(sectionId);
+            activeSection.classList.remove('hidden');
+        }
+
+        // Show the home section by default
+        document.addEventListener('DOMContentLoaded', () => {
+            showSection('home');
+        });
+    </script>
+</body>
+
+</html>
